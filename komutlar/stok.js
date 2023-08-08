@@ -1,7 +1,7 @@
 const { Client, MessageEmbed } = require('discord.js');
 
 exports.run = async (client, message, args) => {
-const stok = 86;
+const stok = 86; //Stok sayısını belirleyin.
     const codwaEspri = [
       `Stok sayısı: ${stok}`
     ];
