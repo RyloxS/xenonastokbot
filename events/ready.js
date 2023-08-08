@@ -15,8 +15,8 @@ client.on('ready', () => {
 
     // Oynuyor Kısmı
     
-      client.user.setPresence({ activities: [{ name: 'VALO PAZARIM' }] });
-	  client.user.setPresence({ activities: [{ name: 'STOKLAR YENİLENDİ!' }] });
+      client.user.setPresence({ activities: [{ name: 'XENONA BOT!' }] });
+	  client.user.setPresence({ activities: [{ name: 'v2.1' }] });
       
     
         console.log ('_________________________________________');
