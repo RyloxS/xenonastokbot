@@ -5,7 +5,7 @@ exports.run = async (client, message) => {
 
 setTimeout(() => { process.exit(0); }, 2000);
 
-if(message.author.id !== `712039907698147391`) return message.channel.send(":name_badge: Bu komutu sadece sahibim kullanabilir.");
+if(message.author.id !== `KENDİ DC İDNİZ`) return message.channel.send(":name_badge: Bu komutu sadece sahibim kullanabilir.");
 
 message.channel.send(`:white_check_mark: **Reboot başarılı.**`);
 
