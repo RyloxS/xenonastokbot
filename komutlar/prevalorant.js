@@ -1,7 +1,7 @@
 const { Client, MessageEmbed } = require('discord.js');
 
 exports.run = async (client, message, args) => {
-	const allowedChannelId = '1134871278537416725'; // Buraya kanalın ID'sini girin
+	const allowedChannelId = ''; // Buraya kanalın ID'sini girin
 
   // Eğer mesajın gönderildiği kanalın ID'si izin verilen kanal ID'sine eşit değilse komut çalıştırılmaz
   if (message.channel.id !== allowedChannelId) {
