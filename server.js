@@ -32,7 +32,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 
-client.login("MTEzNDQxMDc4MDgzODczMTgwNw.GvLZID.Cu3j7TTq7SRuPaI10c1NUOTgZWjIVMv337aTm8")
+client.login("BOT TOKENİNİ GİRİN")
 
 
 // .env gözükmüyor ise sağ üstten remix to edit tuşuna bas!
