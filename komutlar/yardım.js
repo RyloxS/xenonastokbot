@@ -10,17 +10,7 @@ const exampleEmbed = new EmbedBuilder()
 	${prefix}stok-yardım
 	${prefix}valopre
 	${prefix}free-valo`)
-	.setThumbnail('https://i.imgur.com/AfFp7pu.png')
-	.addFields(
-		{ name: 'Regular field title', value: 'Some value here' },
-		{ name: '\u200B', value: '\u200B' },
-		{ name: 'Inline field title', value: 'Some value here', inline: true },
-		{ name: 'Inline field title', value: 'Some value here', inline: true },
-	)
-	.addFields({ name: 'Inline field title', value: 'Some value here', inline: true })
-	.setImage('https://i.imgur.com/AfFp7pu.png')
 	.setTimestamp()
-	.setFooter({ text: 'Some footer text here', iconURL: 'https://i.imgur.com/AfFp7pu.png' });
 
 message.channel.send({ embeds: [exampleEmbed] });
 };
