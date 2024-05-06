@@ -2,10 +2,6 @@ const { Client, GatewayIntentBits, Partials } = require("discord.js");
 const ayarlar = require("./config.json");
 const işaret = require('./config.json');
 var prefix = işaret.prefix
-// .env gözükmüyor ise sağ üstten remix to edit tuşuna bas!
-// .env gözükmüyor ise sağ üstten remix to edit tuşuna bas!
-// .env gözükmüyor ise sağ üstten remix to edit tuşuna bas!
-// .env gözükmüyor ise sağ üstten remix to edit tuşuna bas!
 
 const client = new Client({
   intents: [
@@ -34,9 +30,6 @@ app.listen(process.env.PORT);
 
 client.login("BOT TOKENİNİ GİRİN")
 
-
-// .env gözükmüyor ise sağ üstten remix to edit tuşuna bas!
-// .env gözükmüyor ise sağ üstten remix to edit tuşuna bas!
 // .env gözükmüyor ise sağ üstten remix to edit tuşuna bas!
 // .env gözükmüyor ise sağ üstten remix to edit tuşuna bas!
 // .env gözükmüyor ise sağ üstten remix to edit tuşuna bas!
